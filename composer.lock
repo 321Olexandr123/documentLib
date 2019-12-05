@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea68ca9fb177590503756e5008729767",
+    "content-hash": "5b238027114c3abf44da3a2bdfa1aaef",
     "packages": [
         {
             "name": "crpt/control-panel",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/321Olexandr123/control-panel_lib.git",
@@ -432,9 +432,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "crpt/control-panel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
