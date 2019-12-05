@@ -1,0 +1,46 @@
+{
+  "name": "sumsub/document",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Александр Громский",
+      "email": "rskrydge@itlab-studio.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "sumsub/document",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/321Olexandr123/documentLib.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "nowakowskir/php-jwt": "^1.1",
+    "symfony/http-client": "*",
+    "crpt/control-panel": "dev-master"
+  },
+  "require-dev": {
+    "ext-json": "*"
+  },
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "Document\\": ""
+    }
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": "true"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
