@@ -30,7 +30,7 @@ class Document
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    public static function create(string $email, string $firstName, string $lastName, string $token, string $authorization)
+    public static function verify(string $email, string $firstName, string $lastName, string $token, string $authorization)
     {
         $client = new NativeHttpClient();
 

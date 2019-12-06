@@ -1,5 +1,5 @@
 {
-  "name": "sumsub/document",
+  "name": "crpt/document",
   "type": "library",
   "authors": [
     {
@@ -11,7 +11,7 @@
     {
       "type": "package",
       "package": {
-        "name": "sumsub/document",
+        "name": "crpt/document",
         "version": "master",
         "source": {
           "url": "https://github.com/321Olexandr123/documentLib.git",
