@@ -33,7 +33,7 @@ class Document
     {
         $client = new NativeHttpClient();
 
-        $response = $client->request('POST', 'http://http://cm.crpt.trading/doc/create', [
+        $response = $client->request('POST', 'http://sumsub.crpt.trading/doc/create', [
             'headers' => [
                 'Content-Type' => 'application/json',
                 'Authorization' => 'Bearer ' . $bearer
