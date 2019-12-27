@@ -21,8 +21,7 @@ class Document
      * @param string $email
      * @param string $firstName
      * @param string $lastName
-     * @param string $token
-     * @param string $authorization
+     * @param string $bearer
      * @return array
      * @throws ClientExceptionInterface
      * @throws DecodingExceptionInterface
@@ -30,15 +29,14 @@ class Document
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    public static function verify(string $email, string $firstName, string $lastName, string $token, string $authorization)
+    public static function verify(string $email, string $firstName, string $lastName, string $bearer)
     {
         $client = new NativeHttpClient();
 
-        $response = $client->request('POST', 'http://sumsub.crpt/doc/create', [
+        $response = $client->request('POST', 'http://http://cm.crpt.trading/doc/create', [
             'headers' => [
                 'Content-Type' => 'application/json',
-                'Authorization' => $authorization,
-                'Token' => $token
+                'Authorization' => 'Bearer ' . $bearer
             ],
             'json' => [
                 "email" => $email,
