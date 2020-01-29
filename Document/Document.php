@@ -19,8 +19,6 @@ class Document
 {
     /**
      * @param string $email
-     * @param string $firstName
-     * @param string $lastName
      * @param string $bearer
      * @return array
      * @throws ClientExceptionInterface
@@ -29,7 +27,7 @@ class Document
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    public static function verify(string $email, string $firstName, string $lastName, string $bearer)
+    public static function verify(string $email, string $bearer)
     {
         $client = new NativeHttpClient();
 
@@ -39,9 +37,7 @@ class Document
                 'Authorization' => 'Bearer ' . $bearer
             ],
             'json' => [
-                "email" => $email,
-                "firstName" => $firstName,
-                "lastName" => $lastName
+                "email" => $email
             ]
         ]);
 

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b238027114c3abf44da3a2bdfa1aaef",
+    "content-hash": "51d35632153ceb100a93b410adb0c80c",
     "packages": [
         {
             "name": "crpt/control-panel",
-            "version": "1.0",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/321Olexandr123/control-panel_lib.git",
-                "reference": "4dd851f1e66a490f71b1d4813dbfd39ecea69561"
+                "reference": "a1a8499f0d95b72a2423c55e3cd59c20717f19e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/321Olexandr123/control-panel_lib/zipball/4dd851f1e66a490f71b1d4813dbfd39ecea69561",
-                "reference": "4dd851f1e66a490f71b1d4813dbfd39ecea69561",
+                "url": "https://api.github.com/repos/321Olexandr123/control-panel_lib/zipball/a1a8499f0d95b72a2423c55e3cd59c20717f19e9",
+                "reference": "a1a8499f0d95b72a2423c55e3cd59c20717f19e9",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                     "email": "rskrydge@itlab-studio.com"
                 }
             ],
-            "time": "2019-12-05T07:41:39+00:00"
+            "time": "2019-12-26T11:31:07+00:00"
         },
         {
             "name": "nowakowskir/php-jwt",
@@ -189,16 +189,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "ee432c2648a309ee8f3c6fe454745e8cbd12deb1"
+                "reference": "14e77c6591f7c4c2a6ff86c65af72d3919835adc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/ee432c2648a309ee8f3c6fe454745e8cbd12deb1",
-                "reference": "ee432c2648a309ee8f3c6fe454745e8cbd12deb1",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/14e77c6591f7c4c2a6ff86c65af72d3919835adc",
+                "reference": "14e77c6591f7c4c2a6ff86c65af72d3919835adc",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
             ],
             "description": "Symfony HttpClient component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-01T11:18:54+00:00"
+            "time": "2019-12-19T16:01:11+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
