@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "51d35632153ceb100a93b410adb0c80c",
+    "content-hash": "7f6f290168f11ce6bc12d193547e3058",
     "packages": [
         {
             "name": "crpt/control-panel",
-            "version": "1.3",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/321Olexandr123/control-panel_lib.git",
-                "reference": "a1a8499f0d95b72a2423c55e3cd59c20717f19e9"
+                "reference": "94d9d0369d12d4ac21e1a459af92f9906f35aae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/321Olexandr123/control-panel_lib/zipball/a1a8499f0d95b72a2423c55e3cd59c20717f19e9",
-                "reference": "a1a8499f0d95b72a2423c55e3cd59c20717f19e9",
+                "url": "https://api.github.com/repos/321Olexandr123/control-panel_lib/zipball/94d9d0369d12d4ac21e1a459af92f9906f35aae3",
+                "reference": "94d9d0369d12d4ac21e1a459af92f9906f35aae3",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                     "email": "rskrydge@itlab-studio.com"
                 }
             ],
-            "time": "2019-12-26T11:31:07+00:00"
+            "time": "2020-02-20T08:24:28+00:00"
         },
         {
             "name": "nowakowskir/php-jwt",
@@ -189,16 +189,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.0.2",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "14e77c6591f7c4c2a6ff86c65af72d3919835adc"
+                "reference": "4240ae267d89db5b694bdb5712e691b1e24cdc26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/14e77c6591f7c4c2a6ff86c65af72d3919835adc",
-                "reference": "14e77c6591f7c4c2a6ff86c65af72d3919835adc",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/4240ae267d89db5b694bdb5712e691b1e24cdc26",
+                "reference": "4240ae267d89db5b694bdb5712e691b1e24cdc26",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,7 @@
             ],
             "description": "Symfony HttpClient component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-19T16:01:11+00:00"
+            "time": "2020-01-31T09:13:47+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -314,16 +314,16 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.13.1",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f"
+                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/4b0e2222c55a25b4541305a053013d5647d3a25f",
-                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/5e66a0fa1070bf46bec4bea7962d285108edd675",
+                "reference": "5e66a0fa1070bf46bec4bea7962d285108edd675",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +332,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -368,7 +368,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27T16:25:15+00:00"
+            "time": "2020-01-13T11:15:53+00:00"
         },
         {
             "name": "symfony/service-contracts",
